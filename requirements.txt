@@ -1,0 +1,5 @@
+numpy==1.19.5
+matplotlib==3.3.3
+tensorflow==2.4.0
+nltk==3.5
+wandb==0.10.33
