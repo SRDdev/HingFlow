@@ -24,9 +24,9 @@ To use the English to Hindi Translation Model, follow these steps:
 3. Load the pre-trained model and tokenizer:
 
    ```python
-   tokenizer = AutoTokenizer.from_pretrained("SRDdev/DubverseAI")
+   tokenizer = AutoTokenizer.from_pretrained("SRDdev/HingFlow")
 
-   model = AutoModelForSeq2SeqLM.from_pretrained("SRDdev/DubverseAI")
+   model = AutoModelForSeq2SeqLM.from_pretrained("SRDdev/HingFlow")
    ```
 
 4. Provide English text as input and generate Hindi translation:
