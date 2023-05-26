@@ -1,10 +1,10 @@
 
-# 🎧 DubverseAI
+# 🎧 HingFlow
 
-DubverseAI is a technology company that specializes in audio translation services (dubing). The company uses advanced machine learning algorithms to provide accurate and efficient translations of audio content from one language to another.
+HingFlow is a technology company that specializes in audio translation services (dubing). The company uses advanced machine learning algorithms to provide accurate and efficient translations of audio content from one language to another.
 
 ## English-Hindi Translator
-This repository contains a Translation model to translate English sentence to Hindi.We used Neural Machine Translation using Transformers approach to solve this problem. The model has been trained on a English and Hindi text corpus.
+This repository contains a Translation model to translate English sentence to Hindi. Used Neural Machine Translation using Transformers approach to solve this problem. The model has been trained on a English and Hindi text corpus.
 
 The data set used for training includes English sentences and the Hindi text for corresponding english sentence.
 
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ## Model Overview 
-<img src="https://github.com/SRDdev/DubverseAI/blob/97391e08e7b3f11b2751ad9f02b2c261f019190c/translator.png">
+<img src="https://github.com/SRDdev/HingFlow/blob/97391e08e7b3f11b2751ad9f02b2c261f019190c/translator.png">
 
 ## How it works
 **Input representation**: The NMT transformer takes the English sentence as input and first converts it into a sequence of tokens using a tokenizer. Each token represents a word or a subword of the sentence. These tokens are then converted into a vector representation using an embedding layer.
